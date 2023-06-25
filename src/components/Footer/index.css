@@ -1,0 +1,26 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+
+    background-color: var(--clr-darkgrey);
+    color: var(--clr-text-white);
+
+    height: auto;
+    width: 100%;
+}
+
+footer li {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+footer li.contacts a {
+    text-decoration: none;
+    color: var(--clr-text-white);
+}
+
+footer li.contacts i:hover {
+    color: #0A81EC;
+    cursor: pointer;
+}

@@ -1,11 +1,37 @@
+:root{
+  --clr-black-primary: black;
+
+  --clr-darkgrey: #333738;
+  --clr-lightgrey:#CCCCCC;
+  --clr-logo-white:#E5F0F2;
+  --clr-bg-white:#F1F1F1;
+  --clr-text-white: whitesmoke;
+
+
+  --clr-red-dark: darkred;
+  --clr-orange-primary:#E36D0A;
+  --clr-orange-secondary: #E8B711;
+  --clr-coral: coral;
+
+  --clr-green-primary: green;
+  --clr-green-secondary: #357104;
+  --clr-green-light:#99C3A9;
+}
+
 body {
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: linear-gradient(to right, rgba(94, 104, 106, 1) 10%, rgba(229, 240, 242, 1) 40% 80%, rgba(229, 240, 242, 1));
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
